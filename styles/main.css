@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+  }
+
+.slider-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.simple-section {
+    height: 150px;
+    display: flex;
+    padding: 0px 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section {
+    margin-right: 30%;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.room-section {
+    display: flex;
+    padding: 0px 80px;
+}
+
+.left-room-section {
+    display: flex;
+    position: relative;
+}
+
+.position {
+    position: absolute;
+}
+
+.bed {
+    display: flex;
+    position: relative;
+}
+
+.room {
+    position: absolute;
+}
+
+.kit {
+    display: flex;
+    position: relative;
+}
+
+.chen {
+    position: absolute;
+}
+
+.new-section {
+    height: 100px;
+    display: flex;
+    padding: 0px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Arrivals {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+ 
