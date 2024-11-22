@@ -32,6 +32,13 @@
     left: 250px;
 }
 
+.text1 {
+    color: #000000;
+    border-top: 1px #000000;
+    border-right: #000000;
+    border-left: #000000;
+}
+
  .btn {
     border: 1px solid;
     width: 100%;
