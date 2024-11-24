@@ -1,0 +1,152 @@
+ /* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  
+  /* HEADER STYLING */
+  header .banner-container {
+    background-color: black;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 80px;
+  }
+  header .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(203, 197, 197);
+    font-size: 14px;
+    width: 800px;
+  }
+  
+  header .banner span a {
+    color: white;
+  }
+  
+  header .banner select {
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+  }
+  
+  header .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  header .nav-link {
+    font-weight: 100;
+  }
+  
+  header a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header .search-cart {
+    display: flex;
+    align-items: center;
+    gap: 20px;;
+  }
+  
+  
+  header .search-bar > button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;;
+  }
+
+
+
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 249px;
+    padding-top: 80px;
+    padding-right: 160px;
+    padding-bottom: 32px;
+    padding-left: 49px;
+    background-color: #141718;
+ }
+
+ .upper-chamber {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+ }
+
+ .upper-upper-left-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: white;
+ }
+
+ .upper-upper-right-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: white;
+ }
+
+ .white {
+    color: white;
+ }
+
+ .line {
+    margin-top: 50px;
+    width: 1120px;
+ }
+
+ .lower-chamber {
+    display: flex;
+    justify-content: space-between;
+    width: 1118px;
+    /* border-top: 0.5px; */
+    padding: 16px 0px;
+ }
+
+ .lower-left-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: white;
+ }
+
+ .lower-right-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: white;
+ }
+  
