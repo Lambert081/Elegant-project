@@ -294,4 +294,82 @@
    background-color: black;
    color: white;
 }
+
+.banner-grid {
+   display: flex;
+   flex-direction: column;
+   width: 1440px;
+   height: 804px;
+   padding-top: 48px;
+   gap: 48px;
+}
+
+.picture-banner {
+   display: flex;
+   width: 1440px;
+   height: 664px;
+   padding: 0px 160px;
+   gap: 4px;
+}
+
+.Collection {
+   display: flex;
+   width: 1120px;
+   height: 44px;
+   padding: 0px 160px;
+   gap: 8px;
+}
+
+.Collection-shop {
+   display: flex;
+   width: 311px;
+   height: 44px;
+   font: poppins;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 44px;
+   letter-spacing: -0-4px;
+   color: #000000;
+}
+
+.headband {
+   display: flex;
+   flex-direction: column;
+   width: 548px;
+   height: 664px;
+   position: relative;
+
+}
+
+.headband-absolute {
+   display: flex;
+   flex-direction: column;
+   width: 360px;
+   height: 78px;
+   position: absolute;
+   top: 538px;
+   left: 48px;
+   gap: 12px;
+}
+
+.head {
+   display: flex;
+   width: 360px;
+   height: 38px;
+   gap: 12px;
+   font: poppins;
+   font-weight: 500;
+   font-size: 34px;
+   line-height: 38px;
+   letter-spacing: -0.6px;
+}
+
+.band {
+   display: flex;
+   width: 98px;
+   height: 28px;
+   border-bottom: 1px solid;
+   gap: 4px;
+   color: #121212;
+}
   
