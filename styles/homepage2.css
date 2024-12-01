@@ -372,4 +372,80 @@
    gap: 4px;
    color: #121212;
 }
+
+.smallcard {
+   display: flex;
+   flex-direction: column;
+   width: 548px;
+   height: 662px;
+   gap: 24px;
+}
+
+ .Card {
+   display: flex;
+   position: relative;
+ }
+
+ .earbud {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   width: 420px;
+   height: 78px;
+   top: 201px;
+   left: 32px;
+   gap: 12px;
+ }
+
+ .picture-card {
+   display: flex;
+   width: 548px;
+   height: 319px;
+   position: relative;
+ }
+
+ .Accessories {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   width: 420px;
+   height: 78px;
+   top: 201px;
+   left: 32px;
+   gap: 12px;
+ }
+
+ .bestseller {
+   display: flex;
+   flex-direction: column;
+   width: 1440px;
+   height: 1206px;
+   padding: 48px 100px 160px;
+   gap: 48px;
+ }
+
+ .best {
+   display: flex;
+   width: 1120px;
+   height: 44px;
+   gap: 48px;
+ }
+
+ .bt {
+   display: flex;
+   width: 203px;
+   height: 44px;
+   font: poppins;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 44px;
+   letter-spacing: -0.4px;
+ }
+
+ 
+
+ 
+
+ 
+
   
