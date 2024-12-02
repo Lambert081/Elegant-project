@@ -503,6 +503,42 @@
   display: flex;
  }
 
+ .banner-picture {
+  display: flex;
+  width: 1440px;
+  height: 532px;
+ }
+
+  
+
+ .banner-text {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 720px;
+  height: 532px;
+  left: 720px;
+  padding-right: 160px;
+  padding-left: 72px;
+  gap: 24px;
+  background-color: #e9c782;
+ }
+
+ .hurryup {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  gap: 24px;
+ }
+
+ .numbers {
+  display: flex;
+ }
+
+ .days {
+  display: flex;
+ }
+
  
 
  
