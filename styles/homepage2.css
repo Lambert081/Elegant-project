@@ -518,9 +518,10 @@
   width: 720px;
   height: 532px;
   left: 720px;
+  padding: 140px;
   padding-right: 160px;
   padding-left: 72px;
-  gap: 24px;
+  /* gap: 24px; */
   background-color: #e9c782;
  }
 
@@ -533,10 +534,88 @@
 
  .numbers {
   display: flex;
+  gap: 24px;
  }
 
  .days {
   display: flex;
+ }
+
+ .promotion {
+  display: flex;
+  flex-direction: column;
+  width: 452px;
+  height: 124px;
+  gap: 16px;
+ }
+
+ .offer {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 118px;
+  gap: 12px;
+ }
+
+ .pro-tion {
+  display: flex;
+  width: 452px;
+  height: 16px;
+  font: inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #377dff;
+ }
+
+ .hurry-off {
+  display: flex;
+  width: 452px;
+  height: 44px;
+  font: poppins;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.4;
+  color: #121212;
+ }
+
+ .tech {
+  display: flex;
+  width: 452px;
+  height: 32px;
+  font: inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #121212;
+ }
+
+ .expire {
+  display: flex;
+  width: 360px;
+  height: 26px;
+  font: inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #141718;
+ }
+
+ .num {
+  display: flex;
+  width: 29px;
+  height: 20px;
+  top: 60px;
+  left: 15px;
+  font: inter;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #141718;
  }
 
  
