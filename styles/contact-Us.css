@@ -146,4 +146,92 @@
     gap: 30px;
     color: white;
  }
+
+ .properties-container {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 1629px;
+  padding: 16px 160px 80px 160px;
+  gap: 48px;
+  background-color: #ffffff;
+ }
+
+ .first-container {
+  display: flex;
+  flex-direction: column;
+  width: 1121px;
+  height: 340px;
+  gap: 40px;
+ }
+
+ .sub-first-container {
+  display: flex;
+  flex-direction: column;
+  width: 1121px;
+  height: 276px;
+  gap: 24px;
+ }
+
+ .sub-p {
+  display: flex;
+  width: 834px;
+  height: 174px;
+  font: poppins;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 58px;
+  letter-spacing: -1px;
+  color: #141718;
+ }
+
+ .sub-p1 {
+  display: flex;
+  width: 834px;
+  height: 74px;
+  font: inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #141718;
+ }
+
+ .second-container {
+  display: flex;
+  width: 1119px;
+  height: 413px;
+ }
+
+ .relative-container {
+  display: flex;
+  width: 559px;
+  height: 413px;
+  padding-left: 72px;
+  gap: 24px;
+  background-color: #f3f5f7;
+  position: relative;
+ }
+
+ .absolute {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 28px;
+  border-bottom: 1px;
+  gap: 4px;
+  color: #121212;
+  position: absolute;
+ }
+
+ .h2 {
+  display: flex;
+  width: 452px;
+  height: 44px;
+  font: poppins;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.4;
+  color: #121212;
+ }
   
