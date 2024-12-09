@@ -293,6 +293,7 @@
   width: 357.67px;
   height: 156px;
   padding: 16px 32px;
+  /* text-align: center; */
   gap: 16px;
   background-color: #f3f5f7;
  }
@@ -308,12 +309,13 @@
  .img {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
   align-items: center;
  }
 
  h5 {
   display: flex;
-  width: 77px;
+  /* width: 77px; */
   height: 16px;
   font: inter;
   font-weight: 700;
@@ -325,7 +327,7 @@
 
  .p-234 {
   display: flex;
-  width: 293px;
+  /* width: 293px; */
   height: 52px;
   font: inter;
   font-weight: 600;
@@ -333,5 +335,6 @@
   line-height: 26px;
   justify-content: center;
   align-items: center;
+  text-align: center;
  }
   

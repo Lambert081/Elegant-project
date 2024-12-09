@@ -672,6 +672,15 @@
   
 }
 
+.img-delivery {
+  display: flex;
+  width: 40px;
+  height: 36px;
+  top: 6px;
+  left: 4px;
+  border: 2.5px;
+}
+
 .newsfeed {
   display: flex;
   flex-direction: column;
@@ -695,6 +704,24 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  width: 544px;
+  height: 16px;
+  font: inter;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 16px;
+
+}
+.newsfeed {
+  display: flex;
+  width: 544px;
+  height: 44px;
+  font: poppins;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.4;
+  align-items: center;
 }
 
 .cards {
@@ -741,6 +768,29 @@
 .input-fild.active + label{
   font-size: 0.75rem;
   top: -2px;
+}
+
+.countdown {
+  display: flex;
+  gap: 20px;
+ 
+
+}
+
+.box {
+  border: 1px solid transparent;
+  width:  70px;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+.name{
+  text-align: center;
 }
 
  
