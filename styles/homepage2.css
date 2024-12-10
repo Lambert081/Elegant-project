@@ -693,7 +693,7 @@
 .newst {
   display: flex;
   flex-direction: column;
-  /* width: 544px; */
+  width: 544px;
   height: 168px;
   gap: 16px;
   /* margin: 100px; */
@@ -765,10 +765,10 @@
 .input-fild.active {
   border-bottom-color: #151515 ;
 }
-.input-fild.active + label{
-  font-size: 0.75rem;
-  top: -2px;
-}
+/* .input-fild.active + label{ */
+  /* font-size: 0.75rem; */
+/*   top: -2px; */
+/* } */
 
 .countdown {
   display: flex;
