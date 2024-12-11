@@ -26,3 +26,25 @@
     flex-shrink: 0;
 }
 
+
+.newsfeed {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    height: 550px;
+    padding: 40px 160px;
+    gap: 40px;
+    background-color: #ffffff;
+  }
+  .newst {
+    display: flex;
+    flex-direction: column;
+    width: 544px;
+    height: 168px;
+    gap: 16px;
+  }
+  
+  
+  
+  
+  
