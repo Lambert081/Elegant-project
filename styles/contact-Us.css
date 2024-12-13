@@ -266,6 +266,13 @@
   gap: 40px;
  }
 
+ .container-card {
+  display: flex;
+  width: 1121px;
+  height: 156px;
+  gap: 24px;
+ }
+
  .h4 {
   display: flex;
   width: 1120px;
@@ -336,5 +343,19 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+ }
+
+ .signin-container {
+  display: flex;
+  width: 1121px;
+  height: 404px;
+  justify-content: space-between;
+ }
+
+ .signin-page {
+  display: flex;
+  width: 544px;
+  height: 404px;
+  gap: 24px;
  }
   

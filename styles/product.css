@@ -310,6 +310,49 @@ header .search-bar>button {
   height: 500px; */
 }
 
+.our-new-container {
+  display: flex;
+  width: 1440px;
+  height: 360px;
+  position: relative;
+}
+
+.our-new-absolute {
+  display: flex;
+  width: 540px;
+  height: 166px;
+  top: 101px;
+  left: 450px;
+  gap: 32px;
+  position: absolute;
+  text-align: center;
+}
+
+.letter-h4 {
+  display: flex;
+  width: 456px;
+  height: 44px;
+  font: poppins;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.4px;
+  align-items: center;
+  color: #141718;
+}
+
+.signdeal {
+  display: flex;
+  width: 540px;
+  height: 30px;
+  font: inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  align-items: center;
+  color: #121212;
+}
+
 .footer-container {
   display: flex;
   flex-direction: column;
@@ -335,6 +378,36 @@ header .search-bar>button {
   color: white;
 }
 
+.foot-legant {
+ display: flex;
+ width: 105px;
+ height: 24px;
+ font: poppins;
+ font-weight: 500;
+ font-size: 24px;
+ line-height: 24px;
+ align-items: center;
+ color: white;
+}
+
+.bar {
+ display: flex;
+ width: 1px;
+ height: 24px;
+ color: #6c7275;
+}
+
+.gift-footer {
+ display: flex;
+ width: 350px;
+ height: 22px;
+ font: inter;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 22px;
+ color: #e8ecef;
+}
+
 .upper-upper-right-footer {
   display: flex;
   justify-content: space-between;
@@ -343,7 +416,35 @@ header .search-bar>button {
 }
 
 .white {
-  color: white;
+ display: flex;
+ font: inter;font-weight: 400;
+ font-size: 14px;
+ line-height: 22px;
+ color: white;
+}
+
+#home {
+ width: 40px;
+ height: 22px;
+}
+#shop {
+ width: 35px;
+ height: 22px;
+}
+
+#product {
+ width: 52px;
+ height: 22px;
+}
+
+#blog{
+ width: 30px;
+ height: 22px;
+}
+
+#contact {
+ /* width: 75px; */
+ height: 22px;
 }
 
 .line {
@@ -364,6 +465,39 @@ header .search-bar>button {
   justify-content: space-between;
   gap: 30px;
   color: white;
+}
+
+.copyright {
+ display: flex;
+ width: 265px;
+ height: 20px;
+ font: poppins;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 20px;
+ color: #e8ecef;
+}
+
+.policy-f {
+ display: flex;
+ /* width: 85px; */
+ height: 20px;
+ font: poppins;
+ font-weight: 600;
+ font-size: 12px;
+ line-height: 20px;
+ color: white;
+}
+
+.terms-f {
+ display: flex;
+ width: 79px;
+ height: 20px;
+ font: poppins;
+ font-weight: 600;
+ font-size: 12px;
+ line-height: 20px;
+ color: white;
 }
 
 .lower-right-footer {
