@@ -220,12 +220,13 @@ header .search-bar>button {
 .page-absolute {
   display: flex;
   flex-direction: column;
-  /* border: 1px solid; */
-  width: 413px;
-  height: 162px;
+  border: 1px solid;
+  width: 425px;
+  height: 170px;
   gap: 24px;
   position: absolute;
   align-items: center;
+  justify-content: center;
 }
 
 .div-1 {
@@ -275,7 +276,7 @@ header .search-bar>button {
 
 .p-2 {
   display: flex;
-  width: 413px;
+  width: 420px;
   height: 32px;
   font: inter;
   font-weight: 400;
@@ -302,11 +303,12 @@ header .search-bar>button {
   gap: 40px;
 }
 
-.toolbar-container {
+.toolbal-container {
   display: flex;
   width: 1120px;
   height: 82px;
   justify-content: space-between;
+  border: 1px solid;
 }
 
 .drop-down {
@@ -318,7 +320,132 @@ header .search-bar>button {
 
 .element-toolbar {
   display: flex;
+  border: 1px solid;
   width: 296px;
   height: 40px;
   gap: 32px;
+}
+
+.sortby {
+  display: flex;
+  width: 85px;
+  height: 26px;
+  gap: 4px;
+  margin-top: 12px;
+}
+
+.toolbar-selector {
+  display: flex;
+  width: 184px;
+  height: 40px;
+  border: 1px solid;
+  gap: 4px;
+}
+
+.toolbutton {
+  display: flex;
+  width: 46px;
+  height: 40px;
+  border: 1px solid;
+}
+
+.element {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin: 7px auto;
+}
+
+.first-dropdown {
+  display: flex;
+  flex-direction: column;
+  width: 262px;
+  height: 82px;
+  gap: 8px;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  width: 262px;
+  height: 48px;
+  border: 2px solid;
+  border-radius: 8px;
+  justify-content: space-between;
+  padding: 8px 8px 8px 16px;
+  color: #6c7275;
+}
+ 
+.product-section {
+  display: flex;
+  flex-direction: column;
+  width: 1120px;
+  height: 1467px;
+  gap: 80px;
+}
+
+.row-01 {
+  display: flex;
+  width: 1120px;
+  height: 433px;
+  gap: 24px;
+}
+
+.small-container-img {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.small-con-abs {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.small-new {
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  padding: 0px 7px;
+  background-color: white;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.small-50 {
+  display: flex;
+  border: 1px solid;
+  justify-content: center;
+  padding: 0px 10px;
+  background-color: green;
+  color: white;
+  border-radius: 3px;
+}
+
+.small-abs {
+  border: 1px solid;
+  display: flex;
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: 0px;
+  bottom: 0px;
+  justify-content: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.loveseat {
+  display: flex;
+  width: 262px;
+  height: 26px;
+  font: inter;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #141718;
 }
