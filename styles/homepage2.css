@@ -335,6 +335,17 @@
    justify-content: space-between;
  }
 
+ .arrival {
+  display: flex;
+  width: 244px;
+  height: 44px;
+  font: poppins;
+  font-size: 40px;
+  font-weight: 500px;
+  line-height: 44px;
+  letter-spacing: -0.4px;
+ }
+
  .product-card {
    display: flex;
    width: 1280px;
@@ -418,7 +429,7 @@
 
  .Collection-shop {
    display: flex;
-   width: 311px;
+   width: 320px;
    height: 44px;
    font: poppins;
    font-weight: 500;
@@ -462,7 +473,7 @@
 
  .band {
    display: flex;
-   width: 98px;
+   width: 110px;
    height: 28px;
    border-bottom: 1px solid;
    gap: 4px;
@@ -531,7 +542,7 @@
 
  .bt {
    display: flex;
-   width: 203px;
+   width: 220px;
    height: 44px;
    font: poppins;
    font-weight: 500;
@@ -734,7 +745,7 @@
 
  .btn {
    display: flex;
-   width: 154px;
+   width: 190px;
    height: 40px;
    border-radius: 8px;
    padding: 6px 40px;
@@ -746,6 +757,7 @@
    font-size: 16px;
    letter-spacing: -0.4px;
    align-items: center;
+   justify-content: center;
  }
 
  .logo-pic {
@@ -789,11 +801,12 @@
  .newst {
    display: flex;
    flex-direction: column;
-   width: 544px;
+   width: 600px;
    height: 168px;
    gap: 16px;
    /* justify-content: center; */
    align-items: center;
+   text-align: center;
    margin: 0 auto;
  }
 
@@ -824,7 +837,7 @@
 
  .news-follow {
    display: flex;
-   width: 544px;
+   /* width: 544px; */
    height: 32px;
    font: inter;
    font-weight: 400;
