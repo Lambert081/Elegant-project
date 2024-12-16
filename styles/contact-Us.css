@@ -406,6 +406,7 @@ h5 {
   width: 1121px;
   height: 404px;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .signin-page {
@@ -479,4 +480,23 @@ h5 {
   letter-spacing: -0.4px;
   align-items: center;
   color: white;
+}
+
+.map,
+.form {
+  width: 50%;
+  height: 50%;
+}
+
+map.form {
+  width: 548px;
+  height: 404px;
+}
+
+.map iframe {
+  height: 400px;
+  width: 700px;
+  left: 0;
+  top: 0;
+  /* position: absolute; */
 }
