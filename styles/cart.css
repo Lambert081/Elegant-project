@@ -172,7 +172,7 @@ body {
     display: flex;
     width: 1120px;
     height: 642px;
-    padding: 80px;
+    padding: 80px 0px;
     gap: 64px;
 }
 
@@ -506,4 +506,101 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+.coupon-form {
+    display: flex;
+    flex-direction: column;
+    width: 424px;
+    height: 129px;
+    gap: 16px;
+}
+
+.coupon-tittle {
+    display: flex;
+    flex-direction: column;
+    width: 424px;
+    height: 61px;
+    gap: 7px;
+}
+
+.form-input {
+    display: flex;
+    width: 424px;
+    height: 52px;
+    border: 1px solid #6C7275;
+    padding: 0 16px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-layout {
+    display: flex;
+    width: 392px;
+    height: 52px;
+    border-bottom: 1px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-input {
+    display: flex;
+    /* width: 341px; */
+    height: 28px;
+    gap: 8px;
+}
+
+.code {
+    display: flex;
+    width: 309px;
+    height: 28px;
+    font: inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+}
+
+.appply {
+    display: flex;
+    width: 43px;
+    height: 28px;
+    font: inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    cursor: pointer;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 249px;
+    padding: 80px 160px 32px 160px;
+    gap: 60px;
+}
+
+.top-footer {
+    display: flex;
+    width: 1120px;
+    height: 32px;
+
+}
+
+.top-footer-inner {
+    display: flex;
+    width: 1120px;
+    height: 24px;
+    justify-content: space-between;
+}
+
+.logo-slogan {
+    display: flex;
+    width: 554px;
+    height: 24px;
+    gap: 30px;
 }
