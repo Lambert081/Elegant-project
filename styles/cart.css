@@ -16,7 +16,7 @@ body {
     padding: 16px 160px;
     justify-content: space-between;
     background-color: white;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .logo {
@@ -161,7 +161,6 @@ body {
     display: flex;
     width: 256px;
     height: 68px;
-    border-bottom: 2px solid black;
     padding-bottom: 26px;
     gap: 24px;
     color: #141718;
@@ -171,6 +170,10 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 26px;
+}
+
+.process:hover {
+    border-bottom: 2px solid black;
 }
 
 .proces {
@@ -187,6 +190,10 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 26px;
+}
+
+.proces:hover {
+    border-bottom: 2px solid #B1B5C3;
 }
 
 .span {
