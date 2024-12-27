@@ -298,6 +298,7 @@ body {
     width: 595px;
     height: 64px;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .left-info {
@@ -323,7 +324,48 @@ body {
     display: flex;
     height: 40px;
     border-radius: 6px;
-    border: 1px solid;
+    border: 1px solid #CBCBCB;
     padding: 0 16px;
     gap: 8px;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    width: 595px;
+    height: 64px;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.phone {
+    display: flex;
+    width: 120px;
+    height: 12px;
+    font: inter;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: #6C7275;
+}
+
+.phone-number {
+    display: flex;
+    width: 595px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #CBCBCB;
+    padding: 0 16px;
+    gap: 8px;
+}
+
+.second-form {
+    display: flex;
+    flex-direction: column;
+    width: 643px;
+    height: 510px;
+    border-radius: 4px;
+    border: 1px solid #6C7275;
+    padding: 40px 24px;
+    gap: 24px;
 }
