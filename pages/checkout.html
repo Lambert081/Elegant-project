@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../styles/checkout.css">
 </head>
+
 <body>
     <header>
         <div class="header">
@@ -20,19 +22,19 @@
             </nav>
             <div class="search-div">
                 <button class="b-t">
-                     <img class="b-a" src="../assets/search 02.png" alt="" width="20px" height="20px">
+                    <img class="b-a" src="../assets/search 02.png" alt="" width="20px" height="20px">
                 </button>
-                 <div class="b-t">
+                <div class="b-t">
                     <img class="b-a" src="../assets/user-circle.png" alt="" width="20px" height="20px">
-                 </div>
-                 <div class="div-icon">
+                </div>
+                <div class="div-icon">
                     <div class="b-th">
                         <img class="b-aa" src="../assets/shopping bag.png" alt="" width="20px" height="20px">
-                     </div>
-                     <div class="b-tf">
+                    </div>
+                    <div class="b-tf">
                         <img class="b-ab" src="../assets/Frame 3.png" alt="" width="20px" height="20px">
-                     </div>
-                 </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -55,28 +57,109 @@
                         <div class="name-info">
                             <div class="left-info">
                                 <label class="first-name" for="fIRST NAME">fIRST NAME</label>
-                                <input class="first-input" type="text" name="" id="" placeholder="First name">
+                                <input class="first-input" type="text" name="" id="" placeholder="First name" required>
                             </div>
                             <div class="left-info">
                                 <label class="first-name" for="LAST NAME">LAST NAME</label>
-                                <input class="first-input" type="text" name="" id="" placeholder="last name">
+                                <input class="first-input" type="text" name="" id="" placeholder="last name" required>
                             </div>
                         </div>
                         <div class="number">
                             <label class="phone" for="Phone Number">PHONE NUMBER</label>
-                            <input class="phone-number" type="number" name="" id="" placeholder="Phone Number">
+                            <input class="phone-number" type="number" name="" id="" placeholder="Phone Number" required>
                         </div>
                         <div class="number">
                             <label class="phone" for="EMAIL ADDRESS">EMAIL ADDRESS</label>
-                            <input class="phone-number" type="number" name="" id="" placeholder="your email">
+                            <input class="phone-number" type="number" name="" id="" placeholder="your email" required>
                         </div>
                     </form>
 
-                    <form class="second-form" action="" method="post"></form>
+                    <form class="second-form" action="" method="post">
+                        <p class="shipping">Shipping Address</p>
+                        <div class="street">
+                            <label class="address" for="Street Address *">STREET ADDRESS *</label>
+                            <input class="input-address" type="address" name="" id="" placeholder="Stress Address"
+                                required>
+                        </div>
+                        <div class="street">
+                            <label class="country" for="Country *">COUNTRY *</label>
+                            <select class="select-input" name="" id="">
+                                <option value="country">country</option>
+                                <option value="America">America</option>
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="Ghana">Ghana</option>
+                                <option value="Brizil">Brazil</option>
+                            </select>
+                        </div>
+                        <div class="street">
+                            <label class="address" for="Town / City *">TOWN / CITY *</label>
+                            <input class="input-address" type="address" name="" id="" placeholder="Town / City"
+                                required>
+                        </div>
+                        <div class="state">
+                            <div class="left-info">
+                                <label class="first-name" for="state">STATE</label>
+                                <input class="first-input" type="text" name="" id="" placeholder="State" required>
+                            </div>
+                            <div class="left-info">
+                                <label class="first-name" for="LAST NAME">LAST NAME</label>
+                                <input class="first-input" type="text" name="" id="" placeholder="last name" required>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <input class="checked" type="checkbox" name="" id="" required>
+                            <p class="billing">Use a different billing address (optional)</p>
+                        </div>
+                    </form>
+
+                    <form class="third-form" action="" method="post">
+                        <p class="payment">Payment method</p>
+                        <div class="card-one">
+                            <div class="frame741">
+                                <div class="frame">
+                                    <div class="frame-fill">
+                                        <div class="fill">
+                                            <div class="checked-yes">
+                                                <input class="radio" type="radio" name="bt" id="" required>
+                                            </div>
+                                            <p class="pay-card">Pay by Card Credit</p>
+                                        </div>
+                                        <div>
+                                            <img  src="../assets/homepic2/money.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inactive">
+                                    <div class="inner-active">
+                                        <div class="active-line">
+                                            <input type="radio" name="bt" id="" required>
+                                            <p>Paypal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="street-line">
+                                <label class="Card-Number" for="Card Number">CARD NUMBER</label>
+                                <input class="outline" type="number" name="" id="" placeholder="1234 1234 1234" required>
+                            </div>
+                            <div class="layoutstate">
+                                <div class="leftstate">
+                                    <label class="expired" for="Expiration date">EXPIRATION DATE</label>
+                                    <input class="inputdate" type="date" name="" id=""required>
+                                </div>
+                                <div class="leftstate">
+                                    <label class="cvc" for="CVC">CVC</label>
+                                    <input class="inputdate" type="number" name="" id="" placeholder="cvc" required>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="btn" type="submit">Place Order</button>
                 </div>
                 <div class="right-layout">Lorem ipsum dolor sit amet.</div>
             </div>
         </section>
-    </main> 
+    </main>
 </body>
+
 </html>

@@ -369,3 +369,340 @@ body {
     padding: 40px 24px;
     gap: 24px;
 }
+
+.shipping {
+    display: flex;
+    width: 177px;
+    height: 28px;
+    font: poppins;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #141718;
+}
+
+.street {
+    display: flex;
+    flex-direction: column;
+    width: 595px;
+    height: 64px;
+    gap: 12px;
+}
+
+.address {
+    display: flex;
+    width: 117px;
+    height: 12px;
+    font: inter;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: #6C7275;
+}
+
+.input-address {
+    display: flex;
+    width: 595px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #6C7275;
+    padding: 0 16px;
+    gap: 8px;
+}
+
+.country {
+    display: flex;
+    width: 70px;
+    height: 12px;
+    font: inter;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: #6C7275;
+}
+
+.select-input {
+    display: flex;
+    width: 595px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #6C7275;
+    padding: 0 16px;
+    gap: 8px;
+}
+
+.town {
+    display: flex;
+    width: 87px;
+    height: 12px;
+    font: inter;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.state {
+    display: flex;
+    width: 595px;
+    height: 64px;
+    justify-content: space-between;
+}
+
+.checkbox {
+    display: flex;
+    width: 339px;
+    height: 26px;
+    gap: 12px;
+}
+
+.checked {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1.5px;
+    color: #6C7275;
+}
+
+.billing {
+    display: flex;
+    width: 303px;
+    height: 26px;
+    font: inter;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C7275;
+}
+
+.third-form {
+    display: flex;
+    flex-direction: column;
+    width: 643px;
+    height: 468px;
+    border-radius: 4px;
+    border: 1px solid #6C7275;
+    padding: 40px 24px;
+    gap: 24px;
+}
+
+.payment {
+    display: flex;
+    width: 176px;
+    height: 28px;
+    font: poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #141718;
+}
+
+.card-one {
+    display: flex;
+    flex-direction: column;
+    width: 595px;
+    height: 336px;
+    border-bottom: 1px;
+    gap: 24px;
+}
+
+.frame741 {
+    display: flex;
+    flex-direction: column;
+    width: 595px;
+    height: 160px;
+    border-bottom: 1px solid #6C7275;
+    padding-bottom: 32px;
+    gap: 24px;
+}
+
+.frame {
+    display: flex;
+    width: 595px;
+    height: 52px;
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 13px 16px;
+    gap: 395px;
+    background-color: #F3F5F7;
+    color: #141718;
+}
+
+.frame-fill {
+    display: flex;
+    width: 563px;
+    height: 26px;
+    justify-content: space-between;
+}
+
+.fill {
+    display: flex;
+    width: 173px;
+    height: 26px;
+    gap: 12px;
+    align-items: center;
+}
+
+.checked-yes {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    border: 1px #141718;
+    position: relative;
+}
+
+.radio {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    color: #141718;
+}
+
+.pay-card {
+    display: flex;
+    width: 143px;
+    height: 26px;
+    font: inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #141718;
+}
+
+.inactive {
+    display: flex;
+    width: 595px;
+    height: 52px;
+    border-radius: 4px;
+    border: 1px solid #6C7275;
+    padding: 13px 16px;
+    gap: 395px;
+}
+
+ .inner-active {
+    display: flex;
+    width: 563px;
+    height: 26px;
+    gap: 346px;
+ }
+
+ .active-line {
+    display: flex;
+    width: 81px;
+    height: 26px;
+    gap: 12px;
+    align-items: center;
+ }
+
+ .street-line {
+    display: flex;
+    flex-direction: column;
+    width: 595px;
+    height: 64px;
+    gap: 12px;
+ }
+
+ .Card-Number {
+    display: flex;
+    width: 100px;
+    height: 12px;
+    font: inter;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+ }
+
+ .outline {
+    display: flex;
+    width: 595px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #6C7275;
+    padding: 0px 16px;
+    gap: 8px;
+    align-items: center;
+ }
+
+ .numberput {
+    display: flex;
+    width: 563px;
+    height: 26px;
+    gap: 8px;
+ }
+
+ .layoutstate {
+    display: flex;
+    width: 595px;
+    height: 64px;
+    justify-content: space-between;
+ }
+
+ .leftstate {
+    display: flex;
+    flex-direction: column;
+    width: 285.5px;
+    height: 64px;
+    gap: 12px;
+ }
+
+ .inputdate {
+    display: flex;
+    width: 285.5px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #6C7275;
+    padding: 0 16px;
+    gap: 8px;
+    align-items: center;
+ }
+
+ .ddyy {
+    display: flex;
+    width: 253.5px;
+    height: 26px;
+    gap: 8px;
+ }
+
+ .expired {
+    display: flex;
+    width: 120px;
+    height: 12px;
+    font: inter;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: #6C7275;
+ }
+
+ .cvc {
+    display: flex;
+    width: 27px;
+    height: 12px;
+    font: inter;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: #6C7275;
+ }
+
+ .btn {
+    display: flex;
+    width: 643px;
+    height: 52px;
+    border-radius: 8px;
+    padding: 12px 40px;
+    gap: 8px;
+    background-color: #141718;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font: inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.4;
+ }
