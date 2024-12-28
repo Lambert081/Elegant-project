@@ -706,3 +706,14 @@ body {
     line-height: 28px;
     letter-spacing: -0.4;
  }
+
+ .right-layout {
+    display: flex;
+    flex-direction: column;
+    width: 413px;
+    height: 862px;
+    border-radius: 6px;
+    border: 1px solid #6C7275;
+    padding: 16px 24px;
+    gap: 16px;
+ }
