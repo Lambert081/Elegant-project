@@ -717,3 +717,150 @@ body {
     padding: 16px 24px;
     gap: 16px;
  }
+
+ .order {
+    display: flex;
+    width: 365px;
+    height: 34px;
+    font: poppins;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.6px;
+ }
+
+ .productcoupon {
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    height: 556px;
+    gap: 24px;
+ }
+
+ .productcell {
+    display: flex;
+    width: 376px;
+    height: 144px;
+    border-bottom: 1px solid #E8ECEF;
+    justify-content: space-between;
+    padding: 24px 0;
+ }
+
+ .cartproduct {
+    display: flex;
+    width: 376px;
+    height: 96px;
+    border-bottom: 1px;
+    gap: 10px;
+    justify-content: space-between;
+ }
+
+ .cartz {
+    display: flex;
+    width: 316px;
+    height: 96px;
+    gap: 16px;
+    justify-content: space-between;
+ }
+
+ .imgcart {
+    display: flex;
+    width: 80px;
+    height: 96px;
+ }
+
+ .cartlayout {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 90px;
+    gap: 8px;
+ }
+
+ .tray {
+    display: flex;
+    width: 210px;
+    height: 22px;
+    font: inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #141718;
+ }
+
+ .black {
+    display: flex;
+    width: 68px;
+    height: 20px;
+    font: inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #6C7275;
+ }
+
+ .table {
+    display: flex;
+    width: 80px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #6C7275;
+    padding: 12px 8px;
+    gap: 10px;
+    background-color: white;
+    align-items: center;
+ }
+
+ .p-botton {
+    display: flex;
+    width: 64px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .minors {
+   display: flex; 
+   width: 20px;
+   height: 16px;
+   top: 2px;
+   align-items: center;
+ }
+
+ .two {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    left: 28px;
+    align-items: center;
+ }
+
+ .plus {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    top: 2px;
+    left: 48px;
+    align-items: center;
+ }
+
+ .product-price {
+    display: flex;
+    width: 50px;
+    height: 54px;
+    gap: 8px;
+ }
+
+ .price-caption {
+     display: flex;
+     width: 50px;
+     height: 22px;
+     font: inter;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 22px;
+     align-items: right;
+     color: #121212;
+ }
+
+  
