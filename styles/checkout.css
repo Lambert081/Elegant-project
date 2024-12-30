@@ -863,4 +863,393 @@ body {
      color: #121212;
  }
 
+ .order-summary {
+    display: flex;
+    width: 365px;
+    height: 52px;
+    gap: 12px;
+ }
+
+ .order-input {
+    display: flex;
+    width: 258px;
+    height: 52px;
+    border-radius: 6px;
+    border: 1px solid #CBCBCB;
+    padding: 0 16px;
+    gap: 8px;
+    background-color: #FFFFFF;
+ }
+
+ .button-apply {
+    display: flex;
+    width: 95px;
+    height: 52px;
+    border-radius: 8px;
+    padding: 12px 26px;
+    gap: 8px;
+    background-color: #141718;
+    color: white;
+    font: inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    align-items: center;
+ }
+
+ .checkout-order {
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    height: 208px;
+ }
+
+ .order-payment {
+    display: flex;
+    width: 365px;
+    height: 52px;
+    border-bottom: 1px solid #E8ECEF;
+    padding: 13px 0;
+    align-items: center;
+ }
+
+ .order-fill {
+    display: flex;
+    width: 365px;
+    gap: 160px;
+    align-items: center;
+    position: relative;
+ }
+
+ .order-img {
+    display: flex;
+    width: 122px;
+    height: 26px;
+    gap: 8px;
+    align-items: center;
+ }
+
+ .remove {
+    display: flex;
+    width: 142px;
+    height: 26px;
+    left: 223px;
+    font: inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #38CB89;
+    position: absolute;
+ }
+
+ .JenkateMW {
+    display: flex;
+    width: 90px;
+    height: 26px;
+    font: inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #141718;
+ }
+
+ .ticket-img {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    position: relative;
+ }
+
+ .ticketpercent {
+    display: flex;
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    border: 1.5px;
+ }
+
+ .shipping-free {
+    display: flex;
+    width: 365px;
+    height: 26px;
+    gap: 160px;
+    align-items: center;
+    position: relative;
+ }
+
+ .ship {
+    display: flex;
+    width: 66px;
+    height: 26px;
+    gap: 8px;
+    font: inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #141718;
+ }
+
+ .free-ship {
+    display: flex;
+    width: 35px;
+    height: 26px;
+    left: 330px;
+    position: absolute;
+ }
+
+ .subtotal {
+    display: flex;
+    width: 365px;
+    height: 26px;
+    gap: 160px;
+    align-items: center;
+    position: relative;
+ }
+
+ .p-total {
+    display: flex;
+    width: 64px;
+    height: 26px;
+    font: inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #141718;
+ }
+
+ .p-price {
+    display: flex;
+    width: 57px;
+    height: 26px;
+    position: absolute;
+    left: 308px;
+    font: inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #141718;
+ }
+
+ .total {
+    display: flex;
+    width: 365px;
+    height: 26px;
+    gap: 160px;
+    position: relative;
+ }
+
+ .total-d {
+    display: flex;
+    width: 51px;
+    height: 28px;
+    top: -1px;
+    gap: 8px;
+    font: poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+ }
+
+ .total-price {
+    display: flex;
+    width: 80px;
+    height: 28px;
+    position: absolute;
+    left: 285px;
+    font: poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+ }
+
+ .footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 249px;
+    padding: 80px 160px 32px 160px;
+    gap: 60px;
+    background-color: black;
+}
+
+.top-footer {
+    display: flex;
+    width: 1120px;
+    height: 32px;
+
+}
+
+.top-footer-inner {
+    display: flex;
+    width: 1120px;
+    height: 24px;
+    justify-content: space-between;
+}
+
+.logo-slogan {
+    display: flex;
+    width: 554px;
+    height: 24px;
+    gap: 32px;
+}
+
+.logo-p {
+    display: flex;
+    width: 105px;
+    height: 24px;
+    font: poppins;
+    font-weight: 500;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.bar {
+    display: flex;
+    width: 1px;
+    height: 24px;
+    color: #6C7275;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-p {
+    display: flex;
+    width: 350px;
+    height: 22px;
+    font: inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #E8ECEF;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav-footer {
+    display: flex;
+    width: 392px;
+    height: 22px;
+    gap: 40px;
+}
+
+.ul-footer {
+    display: flex;
+    width: 392px;
+    height: 22px;
+    gap: 40px;
+}
+
+.li-list {
+    display: flex;
+    text-decoration: none;
+    font: inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+}
+
+.a {
+    width: 40px;
+    height: 22px;
+}
+
+.b {
+    width: 35px;
+    height: 22px;
+}
+
+.c {
+    width: 52px;
+    height: 22px;
+}
+
+.d {
+    width: 30px;
+    height: 22px;
+}
+
+.f {
+    width: 75px;
+    height: 22px;
+}
+
+.down-footer {
+    display: flex;
+    width: 1118px;
+    height: 56px;
+    border-top: 0.5px solid #6C7275;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.footer-layout {
+    display: flex;
+    width: 485;
+    height: 20px;
+    gap: 28px;
+}
+
+.copy-right {
+    display: flex;
+    width: 265px;
+    height: 20px;
+    font: poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E8ECEF;
+}
+
+.privacy {
+    display: flex;
+    width: 85px;
+    height: 20px;
+    font: poppins;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FEFEFE;
+}
+
+.term {
+    display: flex;
+    width: 79px;
+    height: 20px;
+    font: poppins;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FEFEFE;
+}
+
+.icon-container {
+    display: flex;
+    width: 120px;
+    height: 24px;
+    gap: 24px;
+}
+
+.icon-a {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.img-icon {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    top: 7px;
+    left: 7px;
+    border: 1.5px #FEFEFE;
+    position: absolute;
+}
+
   
