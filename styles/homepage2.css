@@ -93,50 +93,58 @@
 
 
  .footer-container {
-   display: flex;
-   flex-direction: column;
-   width: 1440px;
-   height: 249px;
-   padding-top: 80px;
-   padding-right: 160px;
-   padding-bottom: 32px;
-   padding-left: 49px;
-   background-color: #141718;
- }
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 249px;
+  padding: 80px 160px 32px 160px;
+  gap: 60px;
+  background-color: black;
+}
 
- .upper-chamber {
-   display: flex;
-   justify-content: space-between;
-   width: 1120px;
- }
+.top-footer {
+  display: flex;
+  width: 1120px;
+  height: 32px;
 
- .upper-upper-left-footer {
-   display: flex;
-   justify-content: space-between;
-   gap: 30px;
-   color: white;
- }
+}
 
- .foot-legant {
+.top-footer-inner {
+  display: flex;
+  width: 1120px;
+  height: 24px;
+  justify-content: space-between;
+}
+
+.logo-slogan {
+  display: flex;
+  width: 554px;
+  height: 24px;
+  gap: 32px;
+}
+
+.logo-p {
   display: flex;
   width: 105px;
   height: 24px;
   font: poppins;
   font-weight: 500;
   font-size: 24px;
-  line-height: 24px;
+  justify-content: center;
   align-items: center;
   color: white;
- }
+}
 
- .bar {
+.bar {
   display: flex;
   width: 1px;
   height: 24px;
-  color: #6c7275;
- }
+  color: #6C7275;
+  justify-content: center;
+  align-items: center;
+}
 
- .gift-footer {
+.gift-p {
   display: flex;
   width: 350px;
   height: 22px;
@@ -144,80 +152,88 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: #e8ecef;
- }
+  color: #E8ECEF;
+  /* justify-content: center; */
+  align-items: center;
+}
 
- .upper-upper-right-footer {
-   display: flex;
-   justify-content: space-between;
-   gap: 30px;
-   color: white;
- }
-
- .white {
+.nav-footer {
   display: flex;
-  font: inter;font-weight: 400;
+  width: 392px;
+  height: 22px;
+  gap: 40px;
+}
+
+.ul-footer {
+  display: flex;
+  width: 392px;
+  height: 22px;
+  gap: 40px;
+}
+
+.li-list {
+  display: flex;
+  text-decoration: none;
+  font: inter;
+  font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   color: white;
- }
+}
 
- #home {
+.a {
   width: 40px;
   height: 22px;
- }
- #shop {
+}
+
+.b {
   width: 35px;
   height: 22px;
- }
+}
 
- #product {
+.c {
   width: 52px;
   height: 22px;
- }
+}
 
- #blog{
+.d {
   width: 30px;
   height: 22px;
- }
+}
 
- #contact {
-  /* width: 75px; */
+.f {
+  width: 85px;
   height: 22px;
- }
+}
 
- .line {
-   margin-top: 50px;
-   width: 1120px;
- }
-
- .lower-chamber {
-   display: flex;
-   justify-content: space-between;
-   width: 1118px;
-   /* border-top: 0.5px; */
-   padding: 16px 0px;
- }
-
- .lower-left-footer {
-   display: flex;
-   justify-content: space-between;
-   gap: 30px;
-   color: white;
- }
-
- .copyright {
+.down-footer {
   display: flex;
-  /* width: 265px; */
+  width: 1118px;
+  height: 56px;
+  border-top: 0.5px solid #6C7275;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.footer-layout {
+  display: flex;
+  width: 485;
+  height: 20px;
+  gap: 28px;
+}
+
+.copy-right {
+  display: flex;
+  width: 275px;
   height: 20px;
   font: poppins;
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
-  color: #e8ecef;
- }
+  color: #E8ECEF;
+}
 
- .policy-f {
+.privacy {
   display: flex;
   width: 85px;
   height: 20px;
@@ -225,10 +241,10 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
-  color: white;
- }
+  color: #FEFEFE;
+}
 
- .terms-f {
+.term {
   display: flex;
   width: 79px;
   height: 20px;
@@ -236,20 +252,37 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
-  color: white;
- }
+  color: #FEFEFE;
+}
 
- .lower-right-footer {
-   display: flex;
-   justify-content: space-between;
-   gap: 30px;
-   color: white;
- }
+.icon-container {
+  display: flex;
+  width: 120px;
+  height: 24px;
+  gap: 24px;
+}
+
+.icon-a {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.img-icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  top: 7px;
+  left: 7px;
+  border: 1.5px #FEFEFE;
+  /* position: absolute; */
+}
 
  .picture-container {
    display: flex;
    flex-direction: column;
-   width: 1440px;
+   width: 100%;
    height: 820px;
    position: relative;
  }
@@ -265,15 +298,24 @@
    gap: 28px;
  }
 
+ .text-layout {
+  display: flex;
+  flex-direction: column;
+  width: 538px;
+  height: 298px;
+  gap: 10px;
+ }
+
  .listen {
    display: flex;
    flex-direction: column;
    width: 538px;
-   /* height: 252px; */
-   /* gap: 8px; */
+   height: 252px;
+   gap: 8px;
    font: poppins;
    font-weight: 500;
-   /* line-height: 84px; */
+   font-size: 80px;
+   line-height: 84px;
    letter-spacing: -3px;
  }
 
@@ -312,20 +354,22 @@
 
  .logo-container {
    display: flex;
-   width: 1442px;
+   width: 100%;
    height: 144px;
    padding: 40px 160px;
    gap: 24px;
+   margin: 0 auto;
  }
 
  .new-arrival-container {
    display: flex;
    flex-direction: column;
-   width: 1440px;
+   width: 100%;
    height: 647px;
    padding: 48px 0;
    padding-left: 160px;
    gap: 48px;
+   margin: 0 auto;
  }
 
  .new {
@@ -359,7 +403,6 @@
    position: relative;
  }
 
-
  .small-con-abs {
    display: flex;
    flex-direction: column;
@@ -392,20 +435,23 @@
    width: 230px;
    height: 46px;
    border: 1px solid;
+   border-radius: 8px;
    display: flex;
    position: absolute;
-   top: 286px;
+   top: 287px;
    left: l6px;
    padding: 8px 24px;
    gap: 4px;
    background-color: black;
    color: white;
+   justify-content: center;
+   align-items: center;
  }
 
  .banner-grid {
    display: flex;
    flex-direction: column;
-   width: 1440px;
+   width: 100%;
    height: 804px;
    padding-top: 48px;
    gap: 48px;
@@ -413,7 +459,7 @@
 
  .picture-banner {
    display: flex;
-   width: 1440px;
+   width: 100%;
    height: 664px;
    padding: 0px 160px;
    gap: 4px;
@@ -525,12 +571,13 @@
  .bestseller {
    display: flex;
    flex-direction: column;
-   width: 1440px;
+   width: 100%;
    height: 1206px;
    padding-top: 48px;
    padding-bottom: 100px;
    padding-left: 160px;
    gap: 48px;
+   margin: 0 auto;
  }
 
  .best {
@@ -762,7 +809,7 @@
 
  .logo-pic {
    display: flex;
-   width: 1400px;
+   width: 100%;
    height: 300px;
    padding: 40px 160px;
    gap: 24px;
@@ -792,7 +839,7 @@
  .newsfeed-section {
    display: flex;
    flex-direction: column;
-   width: 1440px;
+   width: 100%;
    height: 550px;
    padding: 40px 160px;
    gap: 40px;
@@ -866,7 +913,7 @@
 
  .join-container {
    display: flex;
-   width: 1440px;
+   width: 100%;
    height: 360px;
    position: relative;
  }

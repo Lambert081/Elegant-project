@@ -9,11 +9,7 @@
     display: flex;
 }
 
-.left-section {
-
-}
-
-.right-section{
+.right-section {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -51,10 +47,10 @@
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: blue;
- }
+}
 
- .color {
+.color {
     color: rgb(68, 209, 68);
- }
+}
