@@ -175,14 +175,112 @@ body {
     display: flex;
     width: 82px;
     height: 82px;
+    position: relative;
+    margin: 0 auto;
 }
 
-.avatar {
+.camera {
     display: flex;
     width: 30px;
     height: 30px;
+    position: absolute;
     top: 52px;
     left: 50px;
-    border: 1.5px;
     border-radius: 125px;
+    border: 1.5px;
+    padding: 7px;
+    gap: 10px;
+}
+
+.sofia {
+    display: flex;
+    width: 131px;
+    height: 32px;
+    font: inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.account-frame {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 258px;
+    gap: 12px;
+}
+
+.account-state {
+    display: flex;
+    width: 230px;
+    height: 42px;
+    padding: 8px 0;
+    gap: 10px;
+}
+
+.account-content {
+    display: flex;
+    width: 230px;
+    height: 26px;
+    font: inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #141718;
+}
+
+.account-content:hover {
+    border-bottom: 1px solid #141718;
+}
+
+.account-cont {
+    display: flex;
+    width: 230px;
+    height: 26px;
+    font: inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C7275;
+}
+
+.account-cont:hover {
+    border-bottom: 1px solid #141718;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 851px;
+    height: 828px;
+    padding: 0 72px;
+    gap: 40px;
+}
+
+.first-form {
+    display: flex;
+    flex-direction: column;
+    width: 707px;
+    height: 416px;
+    gap: 24px;
+}
+
+.Account-Details {
+    display: flex;
+    width: 154px;
+    height: 32px;
+    font: inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.account-name {
+    display: flex;
+    flex-direction: column;
+    width: 707px;
+    height: 64px;
+    gap: 12px;
 }
