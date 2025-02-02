@@ -15,7 +15,7 @@
 
  /* HEADER STYLING */
  header .banner-container {
-   background-color: black;
+   background-color: rgba(243, 245, 247, 1);
    height: 48px;
    display: flex;
    align-items: center;
